@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+//making our first compnoent which is a function 
+//the return value is the content of the component
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Breadcrumbs from "./ui-components/Breadcrumbs";
+import Content from "./ui-components/Content";
+import Header from "./ui-components/Header";
+import LeftMenu from "./ui-components/LeftMenu";
+
+function App(){
+  return(<div> 
+    <Header/>
+    <LeftMenu/>
+    <Breadcrumbs/>
+    <Content/>
+  </div>);
 }
 
 export default App;
