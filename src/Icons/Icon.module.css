@@ -1,0 +1,21 @@
+.icon{
+    fill: #ffff;    /*fill property decides the color of the icon */
+}
+
+/*diving colors on severity - primary, alert, */
+
+.primary{
+    fill: #26932d;
+    /*for main menu*/
+}
+
+.alert{
+    /* for action */
+    fill: #ffff;
+    background: orangered;
+}
+
+.default{
+    fill: #0000;
+}
+
