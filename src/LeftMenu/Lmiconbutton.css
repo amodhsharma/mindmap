@@ -1,0 +1,18 @@
+/* adds styling to individual buttons */
+.container{
+    display: inline-block;
+    width : 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    
+}
+
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

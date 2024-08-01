@@ -1,12 +1,14 @@
 import css from './leftmenu.module.css';
-import Toolbar from './Toolbar';
+import Toolbar from './Toolbar.js';
 
 function LeftMenu(props){
     /*function called left menu takes props as input   */
-    return(<div className={css.container}>
-        <Toolbar type="primary" />
-        {/* will show the icons in  primary colors */}
-    </div>);
+    return(
+    <div className={css.container}>
+        <Toolbar />
+        {/* will show toolbar with its porperties */}
+    </div>
+    );
 
 }
 
